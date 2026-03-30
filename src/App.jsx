@@ -122,7 +122,7 @@ export default function App() {
                     <div className="bar-label">
                       <span>Độ chắc chắn</span>
                       <span style={{ fontWeight: 600 }}>
-                        {(item.confidence * 100).toFixed(1)}%
+                        {(item.confidence * 100).toFixed(4)}%
                       </span>
                     </div>
                     <div className="bar-track">
